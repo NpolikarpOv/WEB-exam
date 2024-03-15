@@ -1,0 +1,70 @@
+
+
+.navbar {
+  background-color: white;
+}
+td{
+  background-color: #cec3e7;
+}
+#table{
+  background-color: #cec3e7;
+}
+.tooltip-inner {
+  max-width: 20vw;
+  background-color: #cec3e7;
+  width: 20vw;
+}
+.page-link {
+  color: #bfadeb;
+}
+
+.navbar img {
+  max-width: 100px;
+  height: auto;
+}
+#walking-routes-table{
+  background-color: #cec3e7;
+}
+.btn {
+  background-color: white;
+  color: rgb(26, 29, 211); 
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(12, 18, 104);
+  color: white;
+}
+
+.collapse {
+  background-color: white;
+}
+body {
+  background-color: #cec3e7;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  background-color: #3ece12;
+}
+.walking-routes-tbody{
+  background-color: #c6178e;
+}
+img {
+  width: 100%;
+}
+#guide{
+  background-color: #cec3e7;
+}
+#alert {
+  background-color: #3706a1;
+  color: white;
+}
+#logo{
+  width: 10%;
+}
