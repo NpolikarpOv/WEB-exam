@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: black;
+	color: white;
+	background-image: url(../Файлы/background.jpg);
+	background-size: cover;
+}
+
+.main-menu {
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+.main-menu a {
+	text-decoration: none;
+	color: white;
+	margin-right: 10px;
+}
+
+.main-menu a:hover {
+	color: rgb(19, 182, 231);
+	transition: color 0.5s;
+}
+
+.main a {
+	text-align: justify;
+}
+
+.name {
+	text-transform: uppercase;
+}
+
+.footer {
+	background-color: black;
+	color: white;
+	padding: 40px 0;
+	margin-top: 2rem;
+}
+
+.avatar {
+	height: 350px;
+	text-align: center;
+	margin: 3rem 0;
+	background-image: url(../Файлы/background1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.avatar img {
+	height: 100%;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.py-5 {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.my-3 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn {
+	text-decoration: none;
+	color: #1214a1;
+	font-weight: bold;
+	border: 2px solid #1214a1;
+	padding: 10px;
+	border-radius: 5px;
+	transition: color 0.5, border-color 0.5s;
+}
+
+.btn:hover {
+
+	color: rgb(19, 182, 231);
+	border-color: rgb(19, 182, 231);
+}
+
+.contact-me-btn {
+	font-size: 1.2rem;
+	color: #fff;
+	border-color: #fff;
+	display: inline-block;
+}
