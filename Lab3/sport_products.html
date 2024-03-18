@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css" media="print">
+    <title>Интернет-магазин</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container d-flex direction-column">
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="index.html">Мероприятия</a></li>
+                    <li><a href="schedule.html">Запись на занятия</a></li>
+                    <li><a href="teachers.html">Тренерский состав</a></li>
+                    <li><a href="sport_products.html">Спорт-товары</a></li>
+                </ul>
+            </nav>
+            <div class="profile">
+                <a href="">Вход</a>
+            </div>
+        </div>
+
+
+    </header>
+    <main class="container d-flex direction-column">
+        <aside class="sidebar">
+            <form>
+                <fieldset class="sidebar-section">
+                    <legend>Тип товара</legend>
+                    <div>
+                        <input type="checkbox" name="topic" value="topic1" id="topic1">
+                        <label for="topic1">Ракетки</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="topic" value="topic2" id="topic2">
+                        <label for="topic2">Воланы</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="topic" value="topic3" id="topic3">
+                        <label for="topic3">Одежда</label>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Применить</button>
+
+
+            </form>
+
+        </aside>
+        <div class="page-content">
+            <h1 class="events">Спорт-товары</h1>
+            <div class="events-list">
+                <div class="event">
+                    <div class="product-image">
+                        <img src="Images/raketki-badminton.jpg" alt="product1">
+                    </div>
+                    <div class="product-details">
+                        <header>Ракетка Wish</header>
+                        <p class="information">Лучшая ракетка в мире и по привлекательной цене</p>
+                        <div class="control">
+                            <button class="btn">
+                                <span class="price">20000 &#8381;</span><span class="buy">Заказать</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="product-image">
+                        <img src="Images/sportiq-sportivnye-igry-badminton-nabor.jpg" alt="product2">
+                    </div>
+                    <div class="product-details">
+                        <header>Набор для игры в бадминтон Torres</header>
+                        <p class="information">Лучший набор для игры в бадминтон. Включает в себя 2 ракетки и 4 воланчика</p>
+                        <div class="control">
+                            <button class="btn">
+                                <span class="price">5000 &#8381;</span><span class="buy">Заказать</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="product-image">
+                        <img src="Images/royal_black.jpg" alt="product3">
+                    </div>
+                    <div class="product-details">
+                        <header>Футболка 2к sport</header>
+                        <p class="information">Синяя футболка, размер 40, идеально подходит для игры в бадминтон</p>
+                        <div class="control">
+                            <button class="btn">
+                                <span class="price">3000 &#8381;</span><span class="buy">Заказать</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="product-image">
+                        <img src="Images/O1CN01GVf6Mv1lWM0UDo37A_!!3696234826.jpg" alt="product4">
+                    </div>
+                    <div class="product-details">
+                        <header>Кроссовки Yonex - женские</header>
+                        <p class="information">Кроссовки женские, размер 37. Ваши ноги скажут: "спасибо"</p>
+                        <div class="control">
+                            <button class="btn">
+                                <span class="price">4000 &#8381;</span><span class="buy">Заказать</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        
+                
+            </div>
+        </div>
+        <button class="scroll-to-top-btn">
+            &#9650;
+        </button>
+
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            &copy; 2022 ООО "Федерация бадминтона города Н"
+        </div>
+    </footer>
+
+</body>
+
+</html>
